@@ -1,4 +1,4 @@
-# MyShell - Phase 4: Hybrid Scheduling Simulation
+# MyShell - Remote Multitasking CLI Shell & Hybrid Scheduling Simulation
 
 This project implements a custom shell application (`myshell`) with extended functionality across four phases of development. By Phase 4, the project simulates a **hybrid scheduling algorithm** (Round Robin + Shortest Job First) to manage multiple client connections to the shell server. Key features include advanced command parsing, multithreaded client-server interaction, and hybrid scheduling for demo and program commands.
 
@@ -47,17 +47,21 @@ This project implements a custom shell application (`myshell`) with extended fun
 Run the following command to compile the project:
 ```bash
 make
+```
 
 ### Execution
 Start the server in one terminal:
 ```bash
 ./myshell
+```
 
 Start the client in another terminal:
 ```bash
 ./myshell_cli
+```
 
 ### Cleanup
 Run the following command to clean up generated files:
 ```bash
 make clean
+```
